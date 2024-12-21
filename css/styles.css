@@ -197,7 +197,9 @@ img {
     gap: 24px;
 }
 
-.nav-section-two {}
+.nav-section-two {
+    width: calc ((100% - 72px) / 4);
+}
 
 .visually-hidden {
     position: absolute;
@@ -213,7 +215,6 @@ img {
 }
 
 .title-section-two {
-    width: calc ( ( 100% - 72px ) / 4 );
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -377,10 +378,12 @@ img {
 }
 
 .logo-studio-footer {
+    display: inline-block;
     color: #f4f4fd;
 }
 
 .content-footer {
+    display: inline-block;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
