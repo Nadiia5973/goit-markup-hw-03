@@ -166,7 +166,7 @@ img {
 }
 
 .button-section-one {
-    max-width: 169px;
+    min-width: 169px;
     display: block;
     border: none;
     margin: auto;
